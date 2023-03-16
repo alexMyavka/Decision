@@ -14,7 +14,7 @@ public class Game {
     }
 
     public void start() {
-        System.out.println("Welcome, Player. You stink as fuck, go wash yourself. \n " +
+        System.out.println("Welcome, Player. You stink, go wash yourself. \n " +
                 "To wash yourself you need shower. The cost of the shower is " + hub.getShowerCost());
         while (true) {
             for (int i = 0; i < maxMissionIndex; i++) {
